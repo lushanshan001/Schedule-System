@@ -1,0 +1,174 @@
+.content-header {
+  height: 180px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  background-color: RGB(255,255,255);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.logo-container {
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+}
+
+.label-container {
+  text-align: left;
+}
+
+.name {
+  color: RGB(102,102,102);
+  font-size: 36px;
+  font-weight: 600;
+  margin-left: 21px;
+  margin-top: 15px;
+}
+
+.create-time {
+  color: RGB(102,102,102);
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 21px; 
+  margin-right: 21px;
+}
+
+.change-btn {
+  /* float: right; */
+  cursor: pointer;
+  color: #ffffff;
+  transition: all 0.6s;/*所有属性变化在0.6秒内执行动画*/
+}
+
+.change-btn:hover {
+  /* float: right; */
+  cursor: pointer;
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+
+.avatar-uploader {
+  width: 178px;
+  height: 178px;
+  display: block;border: 1px dashed gainsboro;border-radius: 6px;
+}
+
+.avatar-uploader:hover {
+  border-color: black;
+}
+.el-icon.avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 178px;
+  height: 178px;
+  text-align: center;
+}
+
+.content-middle {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: right;
+}
+
+.content-middle ul{
+  margin: 0;
+  padding: 0;
+}
+
+.content-middle li{
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.content-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.small-div {
+  width: 100%;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.small-div-header {
+  border: none;
+  padding: 15px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.small-div-header::before{
+  background-color: #4b89dc;
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: -20px;
+  width: 25px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.small-div-body {
+  padding: 20px;
+  padding-top: 0;
+  font-size: 15px;
+  font-weight: 400;
+  color: #666666;
+  line-height: 30px;
+}
+
+.label {
+  width: 100%;
+  margin: 15px;
+  display: flex;
+}
+
+.label-name {
+  color: #666666;
+  width: calc(30% + 20px);
+  padding-top: 0 !important;
+  padding-right: 20px;
+  padding-bottom: 4px;
+  text-indent: 15px;
+  word-break: break-word;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+
+.label-content {
+  width: calc(70% - 20px);
+  margin-bottom: 5px;
+  padding-top: 0;
+  padding-bottom: 5px;
+  position: relative;
+  padding-right: 20px;
+}
+
+.line {
+  text-align: center;
+  width: 95%;
+  height: 1px;
+  border-top: solid #EFF2F7 1px;
+  margin: 0 auto; /* 让分割线居中 */
+}

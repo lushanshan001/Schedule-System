@@ -1,0 +1,40 @@
+/* 设置导入导出文件和搜索框的位置 */
+.header {
+  display: flex;
+  /* justify-content: space-between; */
+}
+/* 设置导入导出文件 */
+.add {
+  display: flex;
+  flex: 2.5;
+}
+
+.add-excel {
+  margin-right: 10px;
+}
+
+/* 分页显示 */
+.pager {
+  float: right;
+}
+
+/* 设置表单 */
+.table{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  margin: 10px;
+  flex: 1;
+}
+
+.date-picker{
+  margin-right: 20px;
+}

@@ -1,0 +1,8 @@
+.show{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 14px;
+}
+.el-form-item__label-wrap {
+    margin-right: 0px !important;
+}

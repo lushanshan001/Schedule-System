@@ -1,0 +1,10 @@
+* {
+  margin: 0 auto;
+}
+
+.el-table td, .el-table th.is-leaf,.el-table--border, .el-table--group{
+  border-color: pink;
+}
+.el-table--border::after, .el-table--group::after, .el-table::before{
+  background-color: pink;
+}

@@ -1,0 +1,22 @@
+.el-aside,
+.el-container {
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+}
+.el-aside {
+  width: 160px;
+}
+.el-header{
+    padding: 0px;
+    --el-header-padding: 0 !important;
+    height: 60px;
+    width: 100%;
+}
+.el-main{
+    background-color: RGB(238,240,245);
+    --el-main-padding: 0 !important;
+}
+.middle{
+  padding: 20px;
+}

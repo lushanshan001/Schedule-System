@@ -1,0 +1,137 @@
+.button-div {
+  margin: 8px;
+}
+
+.input {
+  margin: 10px;
+  width: 400px;
+}
+.content-middle {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: right;
+}
+
+.content-middle ul{
+  margin: 0;
+  padding: 0;
+}
+
+.content-middle li{
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.content-bottom {
+  display: flex;
+  gap: 25px;
+  margin-top: 20px;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.small-div {
+  width: 80%;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+  border-radius: 2px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.small-div-header {
+  border: none;
+  width: 100%;
+  padding: 15px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.small-div-header::before{
+  background-color: #4b89dc;
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: -20px;
+  width: 25px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.small-div-body {
+  width: 100%;
+}
+
+.label {
+  width: 100%;
+  margin: 15px;
+  display: flex;
+}
+
+.label-name {
+  color: #666666;
+  width: calc(50% + 20px);
+  padding-top: 0 !important;
+  padding-right: 20px;
+  padding-bottom: 4px;
+  text-indent: 15px;
+  word-break: break-word;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+
+.label-content {
+  width: calc(50% - 20px);
+  margin-bottom: 5px;
+  padding-top: 0;
+  padding-bottom: 5px;
+  position: relative;
+  padding-right: 20px;
+}
+
+.line {
+  text-align: center;
+  width: 95%;
+  height: 1px;
+  border-top: solid #EFF2F7 1px;
+  margin: 0 auto; /* 让分割线居中 */
+}
+
+.shop-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.icon-div {
+  display: block;
+  float: right;
+  cursor: pointer
+}
+
+.shop-name {
+  margin-left: 5px;
+}
+
+.shop-info {
+  margin: 15px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.line {
+  text-align: center;
+  width: 95%;
+  height: 1px;
+  border-top: solid #EFF2F7 1px;
+  margin: 0 auto; /* 让分割线居中 */
+}

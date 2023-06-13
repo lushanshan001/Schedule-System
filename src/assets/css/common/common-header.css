@@ -1,0 +1,18 @@
+.header-container {
+  height: 60px;
+  position: fixed;
+  background :RGB(255,255,255);
+  position:fixed;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+}
+.pic {
+  width: 30px;
+  height: 30px;
+}
+.l-content {
+  display: flex;
+  align-items: center;
+}

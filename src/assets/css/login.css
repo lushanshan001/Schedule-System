@@ -1,0 +1,127 @@
+.all{
+  background-image: url("../imges/login-back.jpg");
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* opacity: 0.3; */
+}
+.login-container{
+  width: 25%;
+  height: 60%;
+  background-color: white;
+  padding: 50px;
+}
+.login-container-logo{
+  background-image: url("../imges/logo.png");
+  background-size: 100% 100%;
+  width: 18%;
+  height: 90px;
+  margin-bottom: 20px;
+}
+.login-introduction{
+  /* float: left; */
+  text-align: left;
+  margin-bottom: 30px;
+}
+.big-heavy{
+  font-size: 24px;
+  font-weight: 500;
+  display: block;/*span独占一行*/
+}
+.big{
+  font-size: 16px;
+  font-weight: 400;
+}
+.form{
+  width: 100%;
+}
+.email-input{
+  width: 100%;
+  height: 44px;
+  clear: both;
+  font-size: 16px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+}
+.warning{
+  font-size: 14px;
+  text-align: left;
+  color: red;
+  margin-bottom: 10px;
+}
+.login-button{
+  height: 44px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.re_direct {
+  color: #0091FF;
+}
+/* router-link由a来实现的，改变router-link的样式 */
+a {
+  text-decoration-line: none;
+  color: #66ccff;
+}
+.go-forget-password{
+  font-size: 16px;
+  font-weight: 500;
+}
+.go-register{
+  font-size: 14px;
+  font-weight: 400;
+  color: #7d7b7b;
+}
+.line{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height:0;
+  border-top:2px solid #f1f1f1;
+  text-align:center;
+}
+.line-text{
+  position:relative;
+  top:-14px;
+  background-color:#fff;
+}
+.next-email-div{
+  display: inline-flex;
+  justify-content: space-between;
+  border: 1px solid #EEEEEE;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  cursor: pointer;
+  box-sizing: border-box;
+  /* max-width: 100%; */
+  flex-wrap: nowrap;
+  width: 100%;
+}
+.next-email{
+  font-size: 16px;
+  font-family: 'ZohoPuvi', Georgia;
+  padding: 12px 14px;
+  width: auto;
+  word-break: break-all;
+  /* display: inline-block; */
+  display: block;
+  line-height: 20px;
+}
+.change-email{
+  position: relative;
+  font-size: 14px;
+  padding: 0px 14px 0px 0px;
+  display: inline-block;
+  color: #0091FF;
+  line-height: 38px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

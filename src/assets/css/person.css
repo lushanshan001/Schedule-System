@@ -1,0 +1,137 @@
+.content-header {
+  width: 100%;
+  height: 180px;
+  background-image: url(../imges/person-back.png);
+}
+
+.avatar-container {
+  text-align: center;
+}
+
+.avatar {
+  width: 120px;
+  border-radius: 100%;
+}
+
+.label-container {
+  text-align: center;
+}
+
+.header-label {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 21px;
+  margin-right: 21px;
+}
+
+.content-middle {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: right;
+}
+
+.content-middle ul{
+  margin: 0;
+  padding: 0;
+}
+
+.content-middle li{
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.content-bottom {
+  width: 100%;
+  display: flex;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+}
+
+.small-div {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+  border-radius: 2px;
+  overflow: hidden;
+
+}
+
+.small-div-header {
+  border: none;
+  width: 100%;
+  padding: 15px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.small-div-header::before{
+  background-color: #4b89dc;
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: -20px;
+  width: 25px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.small-div-body {
+  width: 100%;
+}
+
+.label {
+  width: 100%;
+  margin: 15px;
+  display: flex;
+}
+
+.label-name {
+  color: #666666;
+  width: calc(50% + 20px);
+  padding-top: 0 !important;
+  padding-right: 20px;
+  padding-bottom: 4px;
+  text-indent: 15px;
+  word-break: break-word;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+
+.label-content {
+  width: calc(50% - 20px);
+  margin-bottom: 5px;
+  padding-top: 0;
+  padding-bottom: 5px;
+  position: relative;
+  padding-right: 20px;
+}
+
+.line {
+  text-align: center;
+  width: 95%;
+  height: 1px;
+  border-top: solid #EFF2F7 1px;
+  margin: 0 auto; /* 让分割线居中 */
+}
