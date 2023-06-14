@@ -1,4 +1,5 @@
 // 员工每周工作时长echarts配置项
+import * as echarts from "echarts";
 var xData = function(weekData) {
   var data = [];
   for (var i = 0; i < weekData.length; i++) {
@@ -10,7 +11,7 @@ var xData = function(weekData) {
 var yData = function(weekData) {
   var data = [];
   for (var i = 0; i < weekData.length; i++) {
-    data.push(weekData[i].workTime);
+    data.push(weekData[i].worktime);
   }
   return data;
 }; // 将 weekData 作为参数传递给 yData 函数

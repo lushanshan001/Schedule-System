@@ -93,10 +93,9 @@ export const addEmployees = (data) => {
 /**
  * 员工一周上班总时间
  */
-export const weekWorkHour = (data) =>{
+export const weekWorkHour = () =>{
   return request({
-    url: "/content/shiftSchedule/get-staff-worktime?shopId="+data,
-    // url: "/content/shiftSchedule/get-staff-worktime?shopId",
+    url: "/content/shiftSchedule/get-staff-worktime",
     method: "get",
     // data: data,
     headers: {
